@@ -31,7 +31,10 @@ const listaContatos = ({navigation}) => {
       }]}>
 
       <View style={ {flexDirection:"column", top:"50px"}}>
+        <Icons> 
 
+
+        </Icons>
         <Text style={{color:"white",textAlign:"center", fontSize:"60px",backgroundColor:"blue"}}> Lista de Contatos  
         </Text> 
       </View>  
