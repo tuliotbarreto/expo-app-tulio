@@ -6,6 +6,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import cadastro from './routes/cadastroScreen';
 import listaContatos from "./routes/listaContatosScreen";
+import cadastroContato from "./routes/listaContatosScreen";
+import alterarcontato from "./routes/editarContatoScreen";
 
 
 const indexScreen = ({navigation}) => {
@@ -30,7 +32,7 @@ const indexScreen = ({navigation}) => {
 
     <View style={{flex:1, top:"120px", alignItems:"center"}}> 
       <Button  onPress={()=>navigation.navigate('listaDeContatos')} title="Logar" style={{ paddingTop: 10, width:"100px" }} />
-        <Button  onPress={()=>navigation.navigate('Cadastrow')} title="Cadastrar" buttonStyle={{backgroundColor:"red"}} style={{ paddingTop: 10, width:"100px" }} />
+        <Button  onPress={()=>navigation.navigate('Cadastro')} title="Cadastrar" buttonStyle={{backgroundColor:"red"}} style={{ paddingTop: 10, width:"100px" }} />
     </View>
 
     </View>
@@ -55,8 +57,11 @@ return (
 <NavigationContainer>
 <Stack.Navigator>
 <Stack.Screen name="Login" component={indexScreen} />
-<Stack.Screen name="Cadastrow" component={cadastro} />
+<Stack.Screen name="Cadastro" component={cadastro} />
 <Stack.Screen name="listaDeContatos" component={listaContatos}/>
+<Stack.Screen name="CadastroDeContato" component={cadastroContato}/>
+<Stack.Screen name="AlteracaoDeContato" component={alterarcontato}/>
+
 </Stack.Navigator>
 </NavigationContainer>
 );
