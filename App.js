@@ -8,6 +8,7 @@ import cadastro from './routes/cadastroScreen';
 import listaContatos from "./routes/listaContatosScreen";
 import cadastroContato from "./routes/listaContatosScreen";
 import alterarcontato from "./routes/editarContatoScreen";
+import cadastrocontato from "./routes/cadastroContatoScreen";
 
 
 const indexScreen = ({navigation}) => {
@@ -59,7 +60,7 @@ return (
 <Stack.Screen name="Login" component={indexScreen} />
 <Stack.Screen name="Cadastro" component={cadastro} />
 <Stack.Screen name="listaDeContatos" component={listaContatos}/>
-<Stack.Screen name="CadastroDeContato" component={cadastroContato}/>
+<Stack.Screen name="CadastroDeContato" component={cadastrocontato}/>
 <Stack.Screen name="AlteracaoDeContato" component={alterarcontato}/>
 
 </Stack.Navigator>

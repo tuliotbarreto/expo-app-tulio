@@ -17,7 +17,7 @@ const alterarcontato = ({navigation}) => {
   
         
       <View style={ {flexDirection:"column", top:"50px"}}>
-        <Text style={{color:"white",textAlign:"center", fontSize:"60px",backgroundColor:"blue"}}> Cadastro </Text>      
+        <Text style={{color:"white",textAlign:"center", fontSize:"60px",backgroundColor:"blue"}}> Alterar Contato </Text>      
       </View>   
    
   
