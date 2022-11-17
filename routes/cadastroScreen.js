@@ -16,13 +16,13 @@ const cadastro = ({navigation}) => {
       }]}>
   
         
-      <View style={ {flexDirection:"column", top:"50px"}}>
-        <Text style={{color:"white",textAlign:"center", fontSize:"60px",backgroundColor:"blue"}}> Cadastro </Text>      
+      <View style={ {flexDirection:"column", top:50}}>
+        <Text style={{color:"white",textAlign:"center", fontSize:60,backgroundColor:"blue"}}> Cadastro </Text>      
       </View>   
    
   
   
-      <View style={{flex:1, top: "80px", alignItems:"center"}}> 
+      <View style={{flex:1, top: 80, alignItems:"center"}}> 
   
         <Input placeholder="Nome" />
         <Input placeholder="CPF" />

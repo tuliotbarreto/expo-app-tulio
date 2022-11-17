@@ -10,33 +10,6 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import axios from 'axios';
 
 
-/* const list = [
-    {
-      name: 'Patricia Tavares',
-      avatar_url: 'https://as1.ftcdn.net/v2/jpg/01/16/24/44/1000_F_116244459_pywR1e0T3H7FPk3LTMjG6jsL3UchDpht.jpg',
-      subtitle: '81 998765332'
-
-    },
-    {
-      name: 'Marcos Andrade',
-      avatar_url: 'https://cdn-icons-png.flaticon.com/512/147/147133.png',
-      subtitle: '81 988553424'
-    },
-    {
-        name: 'Rodrigo Antunes',
-        avatar_url: 'https://cdn1.vectorstock.com/i/1000x1000/23/70/man-avatar-icon-flat-vector-19152370.jpg',
-        subtitle: '81 987765525'
-      },
-
-      {
-        name: 'Turma ADS',
-        avatar_url: 'https://cdn5.vectorstock.com/i/1000x1000/01/69/businesswoman-character-avatar-icon-vector-12800169.jpg',
-        subtitle: '81 12345678'
-      },
-   // more items
-  ]
- */
-
 
 
 const ListaContatos = ({navigation}) => {
